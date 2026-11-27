@@ -1,56 +1,31 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+TAKIT
+카페 매뉴얼 설정 및 간편 인수인계 서비스
+🎯 Git Convention
+🎉 Start: Start New Project [:tada:]
+✨ Feat: 새로운 기능을 추가 [:sparkles:]
+🐛 Fix: 버그 수정 [:bug:]
+🎨 Design: CSS 등 사용자 UI 디자인 변경 [:art:]
+♻️ Refactor: 코드 리팩토링 [:recycle:]
+🔧 Settings: Changing configuration files [:wrench:]
+🗃️ Comment: 필요한 주석 추가 및 변경 [:card_file_box:]
+➕ Dependency/Plugin: Add a dependency/plugin [:heavy_plus_sign:]
+📝 Docs: 문서 수정 [:memo:]
+🔀 Merge: Merge branches [:twisted_rightwards_arrows:]
+🚀 Deploy: Deploying stuff [:rocket:]
+🚚 Rename: 파일 혹은 폴더명을 수정하거나 옮기는 작업만인 경우 [:truck:]
+🔥 Remove: 파일을 삭제하는 작업만 수행한 경우 [:fire:]
+⏪️ Revert: 전 버전으로 롤백 [:rewind:]
+🌲 Branch Convention
+main: 배포 가능한 브랜치, 항상 배포 가능한 상태를 유지
+develop: 다음 버전을 위한 개발 브랜치, 팀원들의 작업 결과물이 모이는 '중심점'
+ui/#이슈번호/명칭: 화면 UI 구현이나 스타일링 작업을 할 때 사용
+예: ui/#12/login-form
+api/#이슈번호/명칭: 데이터 통신, API 연동, 비즈니스 로직 구현 시 사용
+예: api/#45/fetch-user-profile
+🌊 Flow
+Issue 생성
+최신 상태의 develop 에서 새 브랜치 생성
+작업 완료 후 **develop**으로 Pull Request
+팀원들에게 리뷰 요청
+리뷰 후 작업자가 develop 으로 병합
+병합 후 작업자가 해당 브랜치 삭제
